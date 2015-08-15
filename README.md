@@ -17,6 +17,18 @@ Your API will now be served to `localhost:3000` by default.
 
 ---
 
+### Sample .env file
+
+API credentials, secret keys, etc. should all be stored in `process.env.*`. This boilerplate achieves this through the use of a `.env` file along with the [dotenv](https://github.com/bkeepers/dotenv) library. The file is gitignored to avoid checking any credentials into source control. This boilerplate currently only uses one environment variable, and so the `.env` file looks like this:
+
+```
+
+SECRET='abcefgqwerty123'
+
+```
+
+---
+
 ### API Architecture
 
 
@@ -49,7 +61,7 @@ Tests are written and run using [mocha](https://mochajs.org/). Code coverage is 
 
 **To run your tests, use the command `npm test`.**
 
-![Image of generated code coverage results]()
+![Image of generated code coverage results](https://raw.githubusercontent.com/jakemmarsh/expressed-boilerplate/master/coverage.png)
 
 ---
 
@@ -59,4 +71,4 @@ Documentation can be auto-generated for your API using [apiDoc](http://apidocjs.
 
 **To generate your docs, use the command `npm run gen-docs`.**
 
-![Image of generated documentation]()
+![Image of generated documentation](https://raw.githubusercontent.com/jakemmarsh/expressed-boilerplate/master/docs.png)
