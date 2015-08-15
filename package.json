@@ -1,0 +1,46 @@
+{
+  "name": "expressed-boilerplate",
+  "version": "1.0.0",
+  "author": "Jake Marsh <jakemmarsh@gmail.com>",
+  "description": "A boilerplate for quickly building APIs on node.js and Express.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakemmarsh/expressed-boilerplate.git"
+  },
+  "private": false,
+  "engines": {
+    "node": "^0.12.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "change-case": "^2.3.0",
+    "compression": "^1.5.2",
+    "connect-busboy": "0.0.2",
+    "cookie-parser": "^1.3.5",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "superagent": "^1.3.0",
+    "when": "^3.7.3"
+  },
+  "devDependencies": {
+    "apidoc": "^0.13.1",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.4",
+    "sinon": "^1.15.4",
+    "supertest": "^1.0.1",
+    "supervisor": "^0.7.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "supervisor server.js",
+    "test": "istanbul cover --report html --dir \"__coverage__/\" --x \"__tests__/**/*\" --x \"server.js\" node_modules/.bin/_mocha -- -i \"__tests__/**/*.js\"",
+    "gen-docs": "apidoc -i api/controllers/ -o docs/"
+  }
+}
