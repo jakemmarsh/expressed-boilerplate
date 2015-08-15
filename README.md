@@ -49,7 +49,7 @@ SECRET='abcefgqwerty123'
 server.js         (The Express server which loads and serves the API)
 ```
 
-**Note:** none of the authorization or database logic has been provided. Any places in which code has been omitted are marked with `TODO` comments.
+**Note:** none of the authorization or database logic has been provided. Any places in which code has been omitted or stubbed are marked with `TODO` comments.
 
 ---
 
