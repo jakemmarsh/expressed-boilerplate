@@ -1,7 +1,11 @@
 expressed
 =========
 
-A boilerplate for quickly building an API on [node.js](https://nodejs.org/) and [Express](http://expressjs.com/). Also includes testing and auto-documentation frameworks.
+A boilerplate for quickly building an API on [node.js](https://nodejs.org/) and [Express](http://expressjs.com/). 
+
+- Authentication via [Passport](http://passportjs.org/)
+- Automated testing framework
+- Automated documentation
 
 ---
 
