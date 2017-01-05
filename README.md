@@ -1,5 +1,6 @@
-expressed
-=========
+# expressed
+
+[![Dependency Status](https://david-dm.org/jakemmarsh/expressed-boilerplate.svg)](https://david-dm.org/jakemmarsh/expressed-boilerplate) [![devDependency Status](https://david-dm.org/jakemmarsh/expressed-boilerplate/dev-status.svg)](https://david-dm.org/jakemmarsh/expressed-boilerplate#info=devDependencies)
 
 A boilerplate for quickly building an API on [node.js](https://nodejs.org/) and [Express](http://expressjs.com/). Includes:
 
